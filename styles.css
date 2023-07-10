@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+.attribution {
+    font-size: 11px; 
+    position: fixed; 
+    top: 600px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+.container{
+    background-color:  hsl(210, 46%, 95%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width:180px ;
+    height: 180px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.doubleCard{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 460px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+}
+
+.person{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 0.80em;
+    color: hsl(217, 19%, 35%);
+    width: 80%;
+    height: 20%;
+}
+.text{
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 0.50em;
+    width: 80%;
+    height:10%;
+    color:hsl(217, 19%, 35%) ;
+}
+.info{
+    display: flex;
+    flex-direction:column;
+}
+.avatar{
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    border-radius: 20px;
+}
+.name{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 0.50em;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: hsl(217, 19%, 35%);
+}
+.date{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 0.50em;
+    margin-top: -7px;
+    margin-left: 10px;
+    color:hsl(217, 19%, 35%) ;
+}
+
+#share{
+    position: relative;
+    left: 95px;
+    top: 7px;
+    width: 0.54em;
+    height: 0.54em;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.triangulo-invertido {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8.6px solid #000;
+    margin: 0;
+  }
+
+  .vineta{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caja_vineta{
+    margin: 0;
+    background-color: black;
+    height: 30px;
+    width: 70px;
+  }
+
