@@ -20,7 +20,11 @@
     align-items: center;
 }
 
-.img{
+.imgMobile{
+    display: none;
+}
+.imgDesktop{
+    display: flex;
     width:180px ;
     height: 180px;
     border-top-left-radius:5px;
@@ -119,22 +123,112 @@
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 8.6px solid #000;
+    border-top: 8.6px solid hsl(217, 19%, 35%);
     margin: 0;
   }
 
   .vineta{
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 355px;
+    margin-top: 30px;
   }
 
   .caja_vineta{
+    display: flex;
     margin: 0;
-    background-color: black;
-    height: 30px;
-    width: 70px;
+    background-color: hsl(217, 19%, 35%);
+    height: 33px;
+    width: 150px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
   }
 
+  .redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: hsl(212, 23%, 69%);
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 0.45em;
+    width: 75%;
+    height: 85%;
+  }
+
+  .redes p{
+    letter-spacing: 5px;
+  }
+
+  .fb{
+    margin-left: 10px;
+    width: 13px;
+    height: 13px;
+  }
+
+  .tw{
+    margin-left: 10px;
+    width: 13px;
+    height: 13px;
+  }
+
+  .pint{
+    margin-left: 10px;
+    width: 13px;
+    height: 13px;
+  }
+
+  @media (max-width: 768px){
+    .doubleCard{
+        flex-direction: column;
+        width: 300px;
+        height: 500px;
+        border-radius: 10px;
+    }
+    .imgDesktop{
+        display: none;
+    }
+
+    .card1{
+        width: 100%;
+        height: 40%;
+    }
+
+    .imgMobile{
+        margin-top: -115px;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .title{
+        margin-top: -103px;
+        font-size: 1em;
+        width: 85%;
+        height: 20%;
+    }
+
+    .text{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 0.85em;
+        width: 89%;
+        height: 30%;
+    }
+
+    .attribution{
+        top: 845px;
+    }
+
+    .person{
+        margin-top: 142px;
+    }
+  }
